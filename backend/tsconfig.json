@@ -1,0 +1,28 @@
+{
+    "include": ["./src/**/*.ts"],
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "ES2022",
+        "module": "commonjs",
+        "lib": ["ESNext","es2022", "dom", "ESNext.AsyncIterable"],
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "strict": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "strictPropertyInitialization": false,
+        "types": ["express"],
+        "typeRoots": ["./node_modules/@types"] 
+    }
+}
